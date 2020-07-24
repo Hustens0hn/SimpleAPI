@@ -46,7 +46,7 @@ steps:
       command: publish
       publishWebProjects: false
       projects: 'src/SimpleAPI/SimpleAPI.csproj'
-      arguments: '--configuration $(buildConfiguration) --output $(Build.artifactStagingDirectory)'
+      arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)'
       zipAfterPublish: true
 
 - task: PublishBuildArtifact@1
