@@ -31,7 +31,7 @@ namespace SimpleAPI.Controllers
         [HttpGet]
         public ActionResult<string> Get()
         {
-            return "Les Jackson";
+            return "Less Jackson";
 
 
             /*
